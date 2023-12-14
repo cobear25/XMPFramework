@@ -88,7 +88,7 @@
   return [self setObject:value forKey:key error:nil];
 }
 - (BOOL)setObject:(NSObject *)value forKey:(NSString *)key error:(NSError *__autoreleasing *)error {
-  return [self setObject:value forKey:key withProperty:[XMPProperty propertyWithNamespaceURI:[NSString stringWithUTF8String:kXMP_NS_XMP]] error:error];
+  return [self setObject:value forKey:key withProperty:[XMPProperty propertyWithNamespaceURI:[NSString stringWithUTF8String:kXMP_NS_EXIF]] error:error];
 }
 - (BOOL)setObject:(NSObject *)value forKey:(NSString *)key withProperty:(XMPProperty *)property {
   return [self setObject:value forKey:key withProperty:property error:nil];
