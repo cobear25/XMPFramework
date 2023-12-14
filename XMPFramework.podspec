@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
   s.description      = 'XMPFramework is a simple Objective-C wrapper on top of Adobe XMP ToolKit that allow for a native API similar to NSUserDefaults to read/write XMP data.'
 
   # ―――  Author/License data  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.homepage         = 'https://github.com/IHEARTCOOKIES/XMPFramework'
+  s.homepage         = 'https://github.com/cobear25/XMPFramework'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Filip Busic' => 'filipbusic12@gmail.com' }
-  s.source           = { :git => 'https://github.com/IHEARTCOOKIES/XMPFramework.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/cobear25/XMPFramework.git', :tag => s.version.to_s }
 
   # ―――  Source data  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.public_header_files = 'XMPFramework/Classes/Public/**/*.h'
