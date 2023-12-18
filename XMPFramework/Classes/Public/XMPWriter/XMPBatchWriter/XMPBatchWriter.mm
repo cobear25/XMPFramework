@@ -16,7 +16,7 @@
   return [self setDictionary:dictionary error:nil];
 }
 - (BOOL)setDictionary:(NSDictionary<NSString *,NSObject *> *)dictionary error:(NSError *__autoreleasing *)error {
-  return [self setDictionary:dictionary forProperty:[XMPProperty propertyWithNamespaceURI:[NSString stringWithUTF8String:kXMP_NS_XMP]] error:error];
+    return [self setDictionary:dictionary forProperty:[XMPProperty propertyWithNamespaceURI:[NSString stringWithUTF8String: "http://dronedeploy.com/camera/1.0/"]  namespacePrefix:@"Camera"] error:error];
 }
 - (BOOL)setDictionary:(NSDictionary<NSString *,NSObject *> *)dictionary forProperty:(XMPProperty *)property {
   return [self setDictionary:dictionary forProperty:property error:nil];
@@ -33,3 +33,4 @@
 }
 
 @end
+
